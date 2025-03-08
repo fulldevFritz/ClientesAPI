@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <Compile Remove="Controllers\IActionResult.cs" />
   </ItemGroup>
 
 </Project>

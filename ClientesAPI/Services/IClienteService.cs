@@ -9,8 +9,8 @@ namespace ClientesAPI.Services
         Task<IEnumerable<Cliente>> GetClientesAsync();
         Task<IEnumerable<Cliente>> GetClientesByNomeAsync(string nome);
         Task<Cliente> GetClienteAsync(int id);
-        Task<Cliente> CreateClienteAsync(Cliente cliente);
-        Task<Cliente> UpdateClienteAsync(int id, Cliente cliente);
-        Task<Cliente> DeleteClienteAsync(int id);
+        Task CreateClienteAsync(Cliente cliente);
+        Task UpdateClienteAsync(Cliente cliente);
+        Task DeleteClienteAsync(Cliente cliente);
     }
 }
